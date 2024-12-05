@@ -1,0 +1,93 @@
+/*ERROR missing CSS for class value to resize images, assignment 6 requirement */
+
+
+/*add in this rule set
+ *{
+	 padding: 0;
+	 margin: 0;
+ }
+ will remove browser default padding to all elements */
+ 
+ 
+body{
+	background-color:#FFFFFF;
+	color:white;
+}
+
+form{
+	text-align:center;
+	font-size:100px;
+	background-color:#857c7c;
+}
+
+images{
+	text-align:center;
+}
+
+h1{
+	background-color:#9e6e71;
+	color:#FFFFFF;
+	font-family:Shrikhand;
+	font-weight:normal;
+	text-decoration:underline;
+	text-align:center;
+	font-size:50px;
+}
+/*ERROR need rule set for header to define space of header and background color */
+
+/*ERROR navigation style does not match design and no rules controlling it */
+
+h2{
+	color:black;
+	text-align:center;
+}
+
+h3{
+	color:white;
+}
+
+h4{
+	color:white;
+}
+
+h5{
+	color:white;
+}
+
+h6{
+	color:white;
+}
+
+header ul li{
+	list-style:none;
+	display:inline-block;
+	height:50px;
+	width:100px;
+	margin:20px;
+	padding:10px;
+	background-color:white;
+	color:#525252;
+}
+	
+p{
+	text-transform:lowercase;
+}
+
+@font-face{
+		font-family:Shrikhand;
+		src:url('Shrikhand-Regular.ttf');
+}
+
+table{
+	color:black;
+}
+
+td{
+	color:white;
+}
+
+form{
+	font-size:25px;
+}
+
+/*ERROR need rule set for footer to define space of footer and background color */
